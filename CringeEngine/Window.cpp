@@ -134,8 +134,6 @@ RECT Window::getClientWindowRect()
 	return rc; //returns client rect
 }
 
-//TODO: Fix this cringe ass nae nae baby nullptr error
-
 void Window::setHWND(HWND hwnd)
 {
 	this->m_hwnd = hwnd; //Sets window handle to appropriate hwnd value
